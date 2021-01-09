@@ -1,0 +1,48 @@
+.statTable {
+    margin-top: 20px;
+}
+
+.statTable td {
+    padding-bottom: 8px;
+    vertical-align: middle;
+}
+
+.statTable input {
+    width: 25px;
+    /* border: 2px solid var(--yellow); */
+    text-align: center;
+}
+
+.statTable .statButton {
+    user-select: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    height: 27px;
+    width: 25px;
+}
+
+.statTable .statIndicatorNumber {
+    width: 17px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.statTable .statBrackets {
+    margin-top: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.statTable .statname {
+    max-width: 150px;
+}
+
+.buttonFull {
+    border: none;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url("res/fonts/Inconsolata-VariableFont_wdth,wght.ttf")
+        format("truetype");
+}
+@font-face {
+    font-family: "Cyberpunk";
+    src: url("res/fonts/Cyberpunk.ttf") format("truetype");
+}
+
+:root {
+    --yellow: #fcce02;
+    --green: #8ede33;
+    --yellow-dark: rgb(138, 109, 27);
+    --purple: rgb(245, 12, 226);
+    --purple-dark: rgb(179, 18, 166);
+    --bg-color: #111;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--bg-color);
+    background: rgb(255, 217, 0);
+}
+
+::selection {
+    color: var(--bg-color);
+    background: rgb(255, 217, 0);
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
+body {
+    margin: 0;
+    color: var(--yellow);
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+    max-width: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    padding-bottom: 500px;
+}
+
+li {
+    list-style: none;
+}
